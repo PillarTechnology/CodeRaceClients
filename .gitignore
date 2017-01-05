@@ -1,0 +1,17 @@
+*.swp
+.DS_Store
+node_modules
+npm-debug.log
+models/participants.json
+models/race.json
+build
+.gradle
+*.swp
+FizzBuzz-ruby/reports/rspec_results.html
+node_modules
+.DS_Store
+DS_Store
+**/output
+node_modules/
+*/node_modules/*
+**/*.log
