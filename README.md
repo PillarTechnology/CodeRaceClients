@@ -24,3 +24,31 @@ Given an integer, return an ascending list of integers containing all of the pri
 For the code battle, convert from a Roman numeral to its integer value.
 
 (The first part of the Roman numeral kata is often to do the converse conversion, from an Arabic representation to the Roman numerals.)
+
+## Example files that the player/racer needs to know about:
+Java Kata:
+
+Test Code for racer to TDD in:
+CodeRace/raceClient/KataBattles/romanNumeralsJava/src/test/java/com/coderace/RomanNumeralsTest.java
+
+Implementation code for racer to develop in:
+CodeRace/raceClient/KataBattles/romanNumeralsJava/src/main/java/com/coderace/RomanNumerals.java
+
+
+Javascript Kata:
+
+Implementation code for racer to develop in:
+CodeRace/raceClient/KataBattles/RomanNumeralsJS/src/RomanNumerals.js
+
+Test Code for racer to TDD in:
+CodeRace/raceClient/KataBattles/RomanNumeralsJS/spec/RomanNumeralsSpec.js
+
+
+## Example files that are OFF-LIMITS to the player/racer:
+Java Kata:
+OFF LIMITS - Code used by test runner to run values 1-100
+CodeRace/raceClient/KataBattles/fizzBuzzJava/src/test/groovy/com/coderace/accept/FizzBuzzAcceptTest.groovy
+
+Javascript kata:
+OFF LIMITS - Code used by test runner to run values 1-10
+CodeRace/raceClient/KataBattles/RomanNumeralsJS/spec/accept/RomanNumeralsSpec.js
