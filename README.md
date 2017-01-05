@@ -2,6 +2,13 @@
 Files for CodeRace Kata Battles
 
 ## Setup
+0. You might need these commands:
+
+```sh
+npm install -g karma-jasmine
+npm install -g karma-phantomjs-launcher
+brew install gradle
+```
 
 1. Edit `raceProgressPoster.js` to use the correct IP address.
 
@@ -52,3 +59,5 @@ CodeRace/raceClient/KataBattles/fizzBuzzJava/src/test/groovy/com/coderace/accept
 Javascript kata:
 OFF LIMITS - Code used by test runner to run values 1-10
 CodeRace/raceClient/KataBattles/RomanNumeralsJS/spec/accept/RomanNumeralsSpec.js
+
+
