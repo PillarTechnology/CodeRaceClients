@@ -19,8 +19,8 @@ export RACER_NAME=$2
 # start up the race.sh for the new kata
 cd $KATA
 TIMESTAMP=`date "+%y%m%d%H%M%S"`
-./race.sh $RACER_NAME > race-${TIMESTAMP}.log 2>&1 &
+#./race.sh $RACER_NAME > race-${TIMESTAMP}.log 2>&1 &
+./race.sh $RACER_NAME 
 
-#./race.sh $RACER_NAME
 
 
