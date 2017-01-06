@@ -25,7 +25,7 @@ task accept (type:Test) {
     outputs.upToDateWhen { false }
 }
 task viewResults(type:Exec) {
-    commandLine 'open', '/Users/DonAbney/Dev/kataBattle1/build/reports/tests/index.html'
+    commandLine 'open', '/Users/DonAbney/Dev/kataBattle1/build/reports/tests/accept/index.html'
 }
 
 task report << {

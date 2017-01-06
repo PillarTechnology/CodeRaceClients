@@ -24,7 +24,7 @@ task accept (type:Test) {
 task report << {
     def slurper = new XmlSlurper()
     slurper.setFeature("http://apache.org/xml/features/disallow-doctype-decl", false)
-    def html = slurper.parse('build/reports/tests/index.html')
+    def html = slurper.parse('build/reports/tests/accept/index.html')
     html.'**'.findAll{it.@class == 'percent'}.each{
 	println ('Acceptance tests are ' + it + ' complete')
 	def number = it.toString().replaceAll('%','')
