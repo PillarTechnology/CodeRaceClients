@@ -7,8 +7,8 @@ Files for CodeRace Kata Battles
 ```sh
 npm install -g karma-jasmine
 npm install -g karma-phantomjs-launcher
-brew install gradle
 ```
+install gradle
 
 1. Edit `raceProgressPoster.js` to use the correct IP address.
 
