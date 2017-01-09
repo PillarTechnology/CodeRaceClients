@@ -4,6 +4,7 @@ var fs = require("fs");
 var HOME = process.env['HOME'];
 var fileName = HOME + '/race/results.txt';
 var racerNum = process.argv[2];
+var serverAddress = process.argv[3];
 var percentage = 0;
 var opions = {};
 
@@ -46,7 +47,7 @@ var parseFile = function(fileName, stuff) {
 var setOptions = function() {
   options = {
     // update host
-    host: '127.0.0.1',
+    host: serverAddress,
     path: '/percent/' + racerNum + '/' + percentage,
     port: 8081,
     method: 'PUT'
