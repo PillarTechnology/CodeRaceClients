@@ -13,6 +13,6 @@ For example:
 */
 
 var primeFactors = function(number){
-  var primes = [];
+  var primes = [0];
   return primes;
 }
