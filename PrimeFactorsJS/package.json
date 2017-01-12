@@ -13,6 +13,6 @@
   "preferGlobal": true,
   "scripts": {
     "test": "./test.sh",
-    "start" : "node ../raceProgressPoster.js $RACER_NAME"
+    "start" : "node ../raceProgressPoster.js $RACER_NAME $SERVER_IP"
   }
 }
