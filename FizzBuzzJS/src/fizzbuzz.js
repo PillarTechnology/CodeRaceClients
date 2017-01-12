@@ -1,7 +1,7 @@
 function Fizzbuzz(){
 
   Fizzbuzz.prototype.convert = function(number){
-    return "Fizz";
+    return "";
 
   };
 }
