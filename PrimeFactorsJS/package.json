@@ -7,8 +7,8 @@
     "karma-chrome-launcher": "^0.2.2",
     "karma-html-all-reporter": "~0.1.0",
     "karma-jasmine": "~0.1",
-    "karma-phantomjs-launcher": "^0.2.2",
-    "phantomjs": "^1.9.19"
+    "karma-phantomjs-launcher": "^1.0.2",
+    "phantomjs": "^2.1.1"
   },
   "preferGlobal": true,
   "scripts": {
