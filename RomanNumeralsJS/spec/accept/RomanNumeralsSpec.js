@@ -114,6 +114,10 @@ describe('Roman Numerals', function () {
 
   for (var roman in cases) {
     var expected = cases[roman];
+    makeTest(roman, expected);
+  }
+
+  function makeTest(roman, expected) {
     it('translates ' + roman + ' to ' + expected, function () {
       expect(numerals.convert(roman)).toEqual(expected)
     });
