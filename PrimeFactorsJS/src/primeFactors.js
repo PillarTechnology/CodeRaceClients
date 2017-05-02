@@ -10,6 +10,8 @@ For example:
 	 9 -> [3,3]
 	12 -> [2,2,3]
 	15 -> [3,5]
+
+	Note: 1 has no prime factor.
 */
 
 var primeFactors = function(number){
